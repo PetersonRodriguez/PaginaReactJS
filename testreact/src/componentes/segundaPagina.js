@@ -7,7 +7,6 @@ import App from '../App';
 function segundaPagina()  {
     
     return (
-    <>
     <div>
         <h1>Hola mi Nombre completo es Pedro Rodriguez Casas {"\n"}</h1>
         <h1>Mi actual nivel de ingles es: Intermedio Avanzado {"\n"}</h1>
@@ -22,7 +21,6 @@ function segundaPagina()  {
         
         </Router>    
     </div>
-    </>
     );
     
 }
