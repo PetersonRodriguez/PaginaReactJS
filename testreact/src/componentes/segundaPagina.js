@@ -10,7 +10,7 @@ function segundaPagina()  {
         <h1>Hola mi Nombre completo es Pedro Rodriguez Casas {"\n"}</h1>
         <h1>Mi nivel actual de ingles es: Intermedio Avanzado {"\n"}</h1>
         <h1>Las tecnologias que manejo actualmento son: {"\n"}</h1>
-        <h3>UFT, SQL, Teradata, Postman, Rest Client, AML, Jira, Linux, FTP, VBS, VBA, Excel y un poco de Power BI  </h3>   
+        <h3>UFT, SQL, Teradata, Postman, Rest Client, AML, Jira, Linux, FTP, VBS, VBA, Excel y un poco de P ower BI  </h3>   
     </div>
     );
     
