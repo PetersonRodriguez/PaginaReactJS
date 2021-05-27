@@ -12,21 +12,26 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hola bienvenido a la primer pagina en Reactjs de Pedro Rodriguez.
+           Bienvenido a mi primer pagina en Reactjs.
           <h1>{"\n"}</h1>
-        </p>
 
-        <Router>
-          <Link to = "/segundaPagina">Segunda Pagina</Link>
+          <Router>
+        <ul className = "nav-container s-border s-main-center s-pl-0">  
+
+          <li className="nav-container--item s-mr-2">
+          <Link to = "/home">Inicio</Link>{' '}
+
+          
+          <Link to = "/segundaPagina">About me</Link></li>
+         </ul> 
           <Switch>
           <Route exact path = "/SegundaPagina" component={segundaPagina}/>
           </Switch>
 
         </Router>
 
+        </p>
       </header>
-
-
     </div>
   );
 }
