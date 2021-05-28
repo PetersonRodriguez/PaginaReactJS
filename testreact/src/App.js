@@ -3,14 +3,15 @@ import logo from './assets/images/logo.svg';
 import './assets/css/App.css';
 import { BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
 import segundaPagina from './componentes/segundaPagina';
-import { render } from '@testing-library/react';
+import Contacto from './componentes/Contacto';
+
 
 function App() {
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" alt="logo" />
         <p>
            Bienvenido a mi primer pagina en Reactjs.
           <h1>{"\n"}</h1>
@@ -20,12 +21,14 @@ function App() {
 
           <li className="nav-container--item s-mr-2">
           <Link to = "/home">Inicio</Link>{' '}
+          <Link to = "/segundaPagina">About me</Link>{' '}
+          <Link to = "/Contacto">Contacto</Link>{' '}
+          </li>
 
-          
-          <Link to = "/segundaPagina">About me</Link></li>
          </ul> 
           <Switch>
           <Route exact path = "/SegundaPagina" component={segundaPagina}/>
+          <Route exact path = "/Contacto" component={Contacto}/>
           </Switch>
 
         </Router>
